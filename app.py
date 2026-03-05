@@ -3,7 +3,7 @@ import streamlit as st
 from groq import Groq
 
 # Create Groq client
-client = Groq(api_key="gsk_xxxxxxxxxxxxxxxxxxxxx")
+client = Groq(api_key="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")
 
 # Page settings
 st.set_page_config(page_title="CodeBoost AI", page_icon="🤖")
