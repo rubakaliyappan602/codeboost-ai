@@ -1,33 +1,41 @@
-# CodeBoost AI
+# CodeBoost AI - Developer Sidekick
 
-CodeBoost AI is an AI-powered developer assistant that helps programmers:
-
-- Generate code from natural language
-- Explain programming errors
-- Understand existing code
-- Automatically generate documentation
+CodeBoost AI is an AI-powered assistant that helps developers write, understand, and fix code faster.
 
 ## Features
 
-1. Code Generator
-2. Error Explainer
-3. Code Explanation
-4. Documentation Generator
+• Code Generator – Generate code from natural language prompts  
+• Bug Fixer – Identify and fix errors in code  
+• Code Explainer – Understand complex code easily  
 
-## Tech Stack
+## Built With
 
 Python  
 Streamlit  
-OpenAI API  
+Groq API (Llama AI model)
 
-## Installation
+## How It Works
 
-pip install -r requirements.txt
+1. User enters a prompt or code.
+2. The app sends the request to the Groq AI model.
+3. AI generates the result instantly.
+4. The result is displayed in the web app.
 
-## Run the Project
+## Live Demo
 
-streamlit run app.py
+Streamlit App:  
+https://your-streamlit-link
 
-After running the command, open the browser and go to:
+## GitHub Repository
 
-http://localhost:8501
+https://github.com/rubakaliyappan602/codeboost-ai
+
+## Future Improvements
+
+• Add code auto-testing
+• Add multi-language support
+• Add debugging suggestions
+
+## Author
+
+Rubakaliyappan
