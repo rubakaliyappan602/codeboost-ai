@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Put your OpenAI API key here
-openai.api_key = "YOUR_API_KEY"
+openai.api_key = "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"
 
 st.title("CodeBoost AI - Developer Sidekick")
 
